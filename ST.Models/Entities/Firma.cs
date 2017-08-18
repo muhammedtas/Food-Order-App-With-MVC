@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ST.Models.Entities
 {
-    public class Firma
+    public class Firma 
     {
         [Key]
         public int Id { get; set; }

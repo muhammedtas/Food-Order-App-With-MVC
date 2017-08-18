@@ -62,7 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Adres.cs" />
     <Compile Include="Entities\Firma.cs" />
+    <Compile Include="Entities\FirmaUrun.cs" />
+    <Compile Include="Entities\OdemeTipi.cs" />
+    <Compile Include="Entities\Siparis.cs" />
+    <Compile Include="Entities\SiparisDetay.cs" />
     <Compile Include="Entities\Urun.cs" />
     <Compile Include="Entities\UrunKategori.cs" />
     <Compile Include="IdentityModels\ApplicationRole.cs" />

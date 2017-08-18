@@ -26,5 +26,7 @@ namespace ST.Models.Entities
 
         [ForeignKey("UrunKategoriId")]
         public virtual UrunKategori UrunKategori { get; set; }
+
+        public virtual List<FirmaUrun> FirmaUrunler { get; set; } = new List<FirmaUrun>();
     }
 }

@@ -18,8 +18,10 @@ C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.RE.resources
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.addedclasses.resources
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.newclasses.resources
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.updatedclasses.resources
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.csproj.GenerateResource.Cache
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.dll
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.pdb
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.RE.resources
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.csproj.GenerateResource.Cache
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.addedclasses.resources

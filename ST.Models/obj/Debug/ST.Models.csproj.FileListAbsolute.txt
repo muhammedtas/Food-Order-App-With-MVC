@@ -14,8 +14,7 @@ C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.csprojResolveAssemblyReference.cache
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.dll
-C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.pdb
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.Properties.Resources.resources
 C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.dll
+C:\Users\ASUS\Documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.Models\obj\Debug\ST.Models.pdb

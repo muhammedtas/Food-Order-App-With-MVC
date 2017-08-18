@@ -70,6 +70,14 @@
     <Compile Include="Migrations\201708180846407_addedclasses.Designer.cs">
       <DependentUpon>201708180846407_addedclasses.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708180946488_newclasses.cs" />
+    <Compile Include="Migrations\201708180946488_newclasses.Designer.cs">
+      <DependentUpon>201708180946488_newclasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708181029224_updatedclasses.cs" />
+    <Compile Include="Migrations\201708181029224_updatedclasses.Designer.cs">
+      <DependentUpon>201708181029224_updatedclasses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +98,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708180846407_addedclasses.resx">
       <DependentUpon>201708180846407_addedclasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708180946488_newclasses.resx">
+      <DependentUpon>201708180946488_newclasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708181029224_updatedclasses.resx">
+      <DependentUpon>201708181029224_updatedclasses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

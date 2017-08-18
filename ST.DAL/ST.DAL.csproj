@@ -62,6 +62,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201708180744387_RE.cs" />
+    <Compile Include="Migrations\201708180744387_RE.Designer.cs">
+      <DependentUpon>201708180744387_RE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708180846407_addedclasses.cs" />
+    <Compile Include="Migrations\201708180846407_addedclasses.Designer.cs">
+      <DependentUpon>201708180846407_addedclasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +83,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201708180744387_RE.resx">
+      <DependentUpon>201708180744387_RE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708180846407_addedclasses.resx">
+      <DependentUpon>201708180846407_addedclasses.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

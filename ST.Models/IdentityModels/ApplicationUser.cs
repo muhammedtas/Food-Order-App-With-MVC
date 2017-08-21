@@ -13,7 +13,7 @@ namespace ST.Models.IdentityModels
  public   class ApplicationUser : IdentityUser //identity işlemlerini kullanmak için bu class ı eklemeliyiz. İdentity classlar sisteme kullanıcı, admin vs gibi girişlerde kolaylık sağlayan bir pakettir. 
     {
         [Index(IsUnique =true)] //bu indexler , IsClustered =true gibi database içinde kullanıldığında arama yapıldığında daha hızlı bulunmasını sağlar. 
-        public override string Email { get; set; }
+        public override string Email { get; set; } //Email ve Username i IdentityUser dan Microsoft.AspNet.Identity.EntityFramework eklentisinden gelmişti. Unique yapmak için ezdik. Kalıtım aldığımız yerde unique olmadığı için, burada ezere unique yaptık. 
         [Index(IsUnique = true)]
         public override string UserName { get; set; }
         [StringLength(25)]

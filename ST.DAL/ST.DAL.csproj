@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201708181029224_updatedclasses.Designer.cs">
       <DependentUpon>201708181029224_updatedclasses.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708210659078_ChanginginClasses.cs" />
+    <Compile Include="Migrations\201708210659078_ChanginginClasses.Designer.cs">
+      <DependentUpon>201708210659078_ChanginginClasses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708181029224_updatedclasses.resx">
       <DependentUpon>201708181029224_updatedclasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708210659078_ChanginginClasses.resx">
+      <DependentUpon>201708210659078_ChanginginClasses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

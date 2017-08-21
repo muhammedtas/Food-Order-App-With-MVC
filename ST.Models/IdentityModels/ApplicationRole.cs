@@ -11,6 +11,6 @@ namespace ST.Models.IdentityModels
 public class ApplicationRole : IdentityRole // identity nin bir diğer özelliği asıl veri tabanınııza dokunmadan giriş bilgileri için ayrı bir veri tabanı oluşturabilmeniz. 
     {
         [StringLength(200)]
-        public string Decription { get; set; }
+        public string Description { get; set; }
     }
 }

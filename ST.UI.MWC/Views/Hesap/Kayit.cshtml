@@ -1,0 +1,89 @@
+﻿@model RegisterViewModel
+@{
+    ViewBag.Title = "Kayit";
+    Layout = "~/Views/_LayoutPage.cshtml";
+    ViewBag.ContainerClass = "contact-page";
+}
+<div class="container">
+    <div class="row">
+        <div class="widget">
+            <div class="widget-body">
+                <span class="text text-danger">@Html.ValidationSummary()</span>
+                @*Bunlar Hesap içinde kayıt cshtml i olarak çalışsın*@  @*Bu alttaki div class row ları da registration dan aldık.*@
+                
+                @using (Html.BeginForm("Kayit", "Hesap", FormMethod.Post)) 
+                {
+                    @Html.AntiForgeryToken() //controller ın içinde kayıt ol class ının üstüne validationforgery falan yazmıştık. İşte o yüzden bunu buraya yazmamız gerekiyor. 
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.Name)
+                            @Html.TextBoxFor(x => x.Name,new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Name)
+                        </div>
+                        <div class="form-group col-sm-6">
+                            @*<label for="exampleInputEmail1">Last Name</label> bunları komple böyle silip label for falan yapıyoruz komple yukaruda da öyle yatık*@
+                            @Html.LabelFor(x=>x.Surname)
+                            @*<input class="form-control" type="text" value="Artisanal kale" id="example-text-input-2">*@
+                            @Html.TextBoxFor(x=>x.Surname, new { @class="form-control"})
+                            @Html.ValidationMessageFor(x => x.Surname)
+                        </div>
+                        <div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.Email)
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", type="Email" })
+                            @Html.ValidationMessageFor(x => x.Email)
+                        </div>
+                        <div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.Username)
+                            @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Username)
+                        </div>
+                        <div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.Password)
+                            @Html.TextBoxFor(x => x.Password, new { @class = "form-control",  type = "password" })
+                            @Html.ValidationMessageFor(x => x.Password)  
+                        </div>
+                        @*<div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.Password)
+                            @Html.TextBoxFor(x => x.Password, new { @class = "form-control", type = "password" })
+                            @Html.ValidationMessageFor(x => x.Password)
+                            
+                        </div>*@
+                        <div class="form-group col-sm-6">
+                            @Html.LabelFor(x => x.ConfirmPassword)
+                            @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control", type = "password" })
+                            @Html.ValidationMessageFor(x => x.ConfirmPassword)
+                        </div>
+                        <div class="form-group col-sm-12">
+                            @Html.LabelFor(x => x.Phone)
+                            @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Phone)
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-secondary">
+                                    @Html.RadioButtonFor(x => x.FirmaMi, true) Firma
+                                </label>
+                                <label class="btn btn-secondary">
+                                    @Html.RadioButtonFor(x => x.FirmaMi, false) Musteri
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p> <input type="submit" class="btn theme-btn" value="Kayıt Ol" /> </p>
+                        </div>
+                    </div>
+
+                }
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

@@ -6,6 +6,9 @@ C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Owin.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\ST.Models.dll
@@ -16,6 +19,9 @@ C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.DAL\obj\Debug\ST.DAL.Migrations.RE.resources

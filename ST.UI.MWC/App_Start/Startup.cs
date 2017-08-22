@@ -26,7 +26,7 @@ namespace ST.UI.MWC.App_Start
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = "ApplicationCookie",
-                LoginPath = new PathString("/Account/Login") //daha sonra account login path'i verilecek. 
+                LoginPath = new PathString("/Hesap/Giris") //daha sonra account login path'i verilecek. Verdik ve hesap giris yaptık. 
             });
         }
     }

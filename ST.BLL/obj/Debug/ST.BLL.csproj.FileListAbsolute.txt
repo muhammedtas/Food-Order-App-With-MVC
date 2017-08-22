@@ -6,6 +6,8 @@ C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Owin.dll
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\ST.DAL.dll
@@ -19,6 +21,8 @@ C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\obj\Debug\ST.BLL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\documents\visual studio 2017\Projects\Sefer Tasi. Web Application\ST.BLL\obj\Debug\ST.BLL.dll

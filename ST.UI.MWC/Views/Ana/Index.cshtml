@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Ana Sayfa";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+@HttpContext.Current.User.Identity.GetUserName()       @*IsInRole("Admin") //bu nerede kullanılır. adminse*@ 
+@HttpContext.Current.User.Identity.IsAuthenticated @*// bu da bize giriş yapılmış mı yapılmamış mı bilgisini veriyor. Bunu header da kullanacağım*@

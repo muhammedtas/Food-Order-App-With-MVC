@@ -11,11 +11,10 @@
         <div class="widget">
             <div class="widget-body">
                 <span class="text text-danger">@Html.ValidationSummary()</span>
-                @*Bunlar Hesap içinde kayıt cshtml i olarak çalışsın*@  @*Bu alttaki div class row ları da registration dan aldık.*@
-
+                
                 @using (Html.BeginForm("Giris", "Hesap", FormMethod.Post))
                 {
-                    @Html.AntiForgeryToken() //controller ın içinde kayıt ol class ının üstüne validationforgery falan yazmıştık. İşte o yüzden bunu buraya yazmamız gerekiyor.
+                    @Html.AntiForgeryToken()
                                             <div class="row">
                                                 <div class="form-group col-sm-6">
                                                     @Html.LabelFor(x => x.NameEmail)

@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    @*//buranın script ve css lerini AnasayfaTemanın içindeki registration.html in içinden aldık.*@
+    
     <meta name="viewport" content="width=device-width" />
     <title>SeferTasi -  @ViewBag.Title</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
@@ -23,8 +23,8 @@
                 @RenderBody()
 
             </section>
-            @Html.Partial("_AppSectionPartial")  @*// burada appsection ve footer vardı. Bİz bunları kesip *@ 
-            @Html.Partial("_FooterPartial")  @*// partial yapıp burada çağırdık ikisini*@
+            @Html.Partial("_AppSectionPartial") 
+            @Html.Partial("_FooterPartial")
             
 
         </div>
